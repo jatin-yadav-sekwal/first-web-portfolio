@@ -5,10 +5,10 @@ const Navbar = ({ menuOpen, setmenuOpen }) => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   });
   return (
-    <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-white/5 shadow-lg ">
+    <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-white/5 shadow-lg  ">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="font-bold text-xl text-white">
+          <a href="#Home" className="mx-12 font-bold text-xl text-white">
             jxt.<span className="text-blue-500">IN</span>
           </a>
           <div
@@ -20,30 +20,30 @@ const Navbar = ({ menuOpen, setmenuOpen }) => {
             {/* this is for hamburger menu and md: means medium breskpoint that is device larger than medium screen */}
             &#9776;
           </div>
-          <div className="hidden sm:flex items-center  space-x-6">
+          <div className="hidden sm:flex items-center  space-x-15">
             <a
-              href="#home"
+              href="#Home"
               className="text-gray-100 hover:text-blue transition-colors"
             >
-              home
+              Home
             </a>
             <a
-              href="#about"
+              href="#About"
               className="text-gray-100 hover:text-blue transition-colors"
             >
-              about us
+              About 
             </a>
             <a
-              href="#contact"
+              href="#Contact"
               className="text-gray-100 hover:text-blue transition-colors"
             >
-              contact
+              Contact
             </a>
             <a
-              href="#projexts"
+              href="#Projects"
               className="text-gray-100 hover:text-blue transition-colors"
             >
-              projects
+              Projects
             </a>
           </div>
         </div>
