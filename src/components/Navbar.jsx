@@ -5,10 +5,10 @@ const Navbar = ({ menuOpen, setmenuOpen }) => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   });
   return (
-    <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-white/5 shadow-lg  ">
+    <nav className="fixed top-2 w-[90%] z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-xs border-4 rounded-2xl border-white/5 shadow-lg left-1/2 transform -translate-x-1/2">
       <div className="max-w-5xl mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
-          <a href="#Home" className="mx-12 font-bold text-xl text-white">
+        <div className="flex justify-between items-center h-12">
+          <a href="#Home" className=" font-bold text-xl text-white">
             jxt.<span className="text-blue-500">IN</span>
           </a>
           <div
@@ -20,7 +20,7 @@ const Navbar = ({ menuOpen, setmenuOpen }) => {
             {/* this is for hamburger menu and md: means medium breskpoint that is device larger than medium screen */}
             &#9776;
           </div>
-          <div className="hidden sm:flex items-center  space-x-15">
+          <div className="hidden sm:flex items-center space-x-15">
             <a
               href="#Home"
               className="text-gray-100 hover:text-blue transition-colors"
