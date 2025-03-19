@@ -32,6 +32,11 @@ const Navbar = ({ menuOpen, setmenuOpen }) => {
               className="text-gray-100 hover:text-blue transition-colors"
             >
               About 
+            </a><a
+              href="#Projects"
+              className="text-gray-100 hover:text-blue transition-colors"
+            >
+              Projects
             </a>
             <a
               href="#Contact"
@@ -39,12 +44,7 @@ const Navbar = ({ menuOpen, setmenuOpen }) => {
             >
               Contact
             </a>
-            <a
-              href="#Projects"
-              className="text-gray-100 hover:text-blue transition-colors"
-            >
-              Projects
-            </a>
+            
           </div>
         </div>
       </div>

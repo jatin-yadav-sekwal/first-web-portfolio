@@ -7,7 +7,7 @@ const Home = () => {
       className="bg-gradient-to-b from-black-500 via-blue-700 to-black-500 rounded-2xl   min-h-screen flex items-center justify-center relative sm:pt-0 pt-20"
     ><RevealOnScroll>
       <div className="  z-10 px-4 text-center ">
-        <h1 className="text-5xl md:text-7xl font-bold mb-5 bg-gradient-to-r from-blue-500 via-violet-600 to-pink-400 bg-clip-text text-transparent leading-right">
+        <h1 className="inline text-5xl md:text-7xl font-bold mb-5 bg-gradient-to-r from-orange-500 to-pink-600 bg-clip-text text-transparent leading-right text-center">
           Hii I m Jatin Yadav
         </h1>
         <p className="text-gray-200 max-w-lg text-lg mx-auto mb-8 ">
